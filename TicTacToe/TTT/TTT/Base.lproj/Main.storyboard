@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TTT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aFk-Mq-9D6">
+                                <rect key="frame" x="16" y="60" width="343" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TTT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydn-bT-nv7">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="I1s-Wv-jvZ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U4r-2t-mLA">
+                                <rect key="frame" x="16" y="573" width="343" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1R-i0-JeK">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Reset"/>
+                                        <connections>
+                                            <action selector="resetgame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNQ-L1-e8I"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="D4R-Bp-yBh"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="csB-hA-cT8">
+                                <rect key="frame" x="16" y="496" width="343" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXm-v0-dsp">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="bII-Ka-j2F"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ayq-Lt-gEi">
+                                <rect key="frame" x="16" y="156" width="343" height="305"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="dQU-OC-S19">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="101"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mva-4j-cCK">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gH-86-whW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KP-Mg-TAJ">
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0u4-0k-frX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rig-9Q-Kde">
+                                                <rect key="frame" x="229.5" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvj-EE-zUM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-7Z-lra">
+                                        <rect key="frame" x="0.0" y="102" width="343" height="101"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEZ-A0-2qa">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RD3-a2-gQf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvK-PG-u15">
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wgL-nz-kMk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJu-NV-4uG">
+                                                <rect key="frame" x="229.5" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fiJ-iA-oNf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="aNw-Gu-97u">
+                                        <rect key="frame" x="0.0" y="204" width="343" height="101"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cad-M0-8eF">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8JW-bp-24x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k42-Ja-qDA">
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kjn-5B-Vov"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85O-if-n6h">
+                                                <rect key="frame" x="229.5" y="0.0" width="113.5" height="101"/>
+                                                <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5A0-rO-ITP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bJu-NV-4uG" firstAttribute="firstBaseline" secondItem="rig-9Q-Kde" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="60Y-ZT-8hy"/>
+                                    <constraint firstItem="cad-M0-8eF" firstAttribute="top" secondItem="AEZ-A0-2qa" secondAttribute="bottom" id="DEV-Nl-A9K"/>
+                                    <constraint firstItem="gvK-PG-u15" firstAttribute="firstBaseline" secondItem="9KP-Mg-TAJ" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="Fel-9R-hvn"/>
+                                    <constraint firstItem="AEZ-A0-2qa" firstAttribute="firstBaseline" secondItem="Mva-4j-cCK" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="JEZ-YZ-9gM"/>
+                                    <constraint firstAttribute="height" constant="305" id="UCf-G2-Q1R"/>
+                                    <constraint firstItem="85O-if-n6h" firstAttribute="firstBaseline" secondItem="bJu-NV-4uG" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="Xuv-Om-URL"/>
+                                    <constraint firstItem="cad-M0-8eF" firstAttribute="firstBaseline" secondItem="AEZ-A0-2qa" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="a1s-E6-K9B"/>
+                                    <constraint firstItem="k42-Ja-qDA" firstAttribute="firstBaseline" secondItem="gvK-PG-u15" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="lhc-TB-zLh"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cad-M0-8eF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4oO-6I-CFE"/>
+                            <constraint firstItem="wXm-v0-dsp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6zS-Xm-Ihy"/>
+                            <constraint firstItem="Ayq-Lt-gEi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="Ecy-Ol-IDg"/>
+                            <constraint firstItem="aFk-Mq-9D6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Jq6-cS-tKz"/>
+                            <constraint firstItem="aFk-Mq-9D6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JwM-ck-he2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="csB-hA-cT8" secondAttribute="trailing" constant="16" id="Lck-as-DIT"/>
+                            <constraint firstItem="csB-hA-cT8" firstAttribute="top" secondItem="Ayq-Lt-gEi" secondAttribute="bottom" constant="35" id="RqV-gG-ZVP"/>
+                            <constraint firstItem="U4r-2t-mLA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Slr-7W-Rqa"/>
+                            <constraint firstItem="E1R-i0-JeK" firstAttribute="top" secondItem="wXm-v0-dsp" secondAttribute="bottom" constant="17" id="ZDU-wL-cvu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E1R-i0-JeK" secondAttribute="trailing" constant="16" id="Zyc-fT-PVH"/>
+                            <constraint firstItem="Mva-4j-cCK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aGL-Vz-rve"/>
+                            <constraint firstItem="aFk-Mq-9D6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="d05-q1-0v3"/>
+                            <constraint firstItem="Ayq-Lt-gEi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fGE-JI-xKu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E1R-i0-JeK" secondAttribute="bottom" constant="34" id="g84-T8-Fdo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U4r-2t-mLA" secondAttribute="trailing" constant="16" id="gRH-sv-u9q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wXm-v0-dsp" secondAttribute="trailing" constant="16" id="i1t-lA-x97"/>
+                            <constraint firstItem="U4r-2t-mLA" firstAttribute="top" secondItem="csB-hA-cT8" secondAttribute="bottom" constant="17" id="m7N-mX-1iw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ayq-Lt-gEi" secondAttribute="trailing" constant="16" id="nlf-U2-vSb"/>
+                            <constraint firstItem="E1R-i0-JeK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pGi-c7-jZ4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aFk-Mq-9D6" secondAttribute="trailing" constant="16" id="w5m-IP-Y1u"/>
+                            <constraint firstItem="csB-hA-cT8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zNw-iA-hjF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="ydn-bT-nv7" id="g7K-pu-N16"/>
+                        <outlet property="winnerLabel" destination="wXm-v0-dsp" id="qMg-fn-FEw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+</document>

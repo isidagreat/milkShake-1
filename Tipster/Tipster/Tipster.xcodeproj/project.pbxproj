@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC9E147420EC16DE002ED8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E147320EC16DE002ED8BA /* AppDelegate.swift */; };
-		DC9E147620EC16DE002ED8BA /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E147520EC16DE002ED8BA /* MainController.swift */; };
-		DC9E147920EC16DE002ED8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147720EC16DE002ED8BA /* Main.storyboard */; };
-		DC9E147B20EC16DF002ED8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147A20EC16DF002ED8BA /* Assets.xcassets */; };
-		DC9E147E20EC16DF002ED8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */; };
-		DC9E148920EC16DF002ED8BA /* IOSQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */; };
-		DC9E149420EC16DF002ED8BA /* IOSQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */; };
-		DC9E14A220EC1855002ED8BA /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E14A120EC1855002ED8BA /* OtherController.swift */; };
+		DC6E8B8320ED765900654B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E8B8220ED765900654B20 /* AppDelegate.swift */; };
+		DC6E8B8520ED765900654B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E8B8420ED765900654B20 /* ViewController.swift */; };
+		DC6E8B8820ED765900654B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E8B8620ED765900654B20 /* Main.storyboard */; };
+		DC6E8B8A20ED765B00654B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6E8B8920ED765B00654B20 /* Assets.xcassets */; };
+		DC6E8B8D20ED765B00654B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6E8B8B20ED765B00654B20 /* LaunchScreen.storyboard */; };
+		DC6E8B9820ED765B00654B20 /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E8B9720ED765B00654B20 /* TipsterTests.swift */; };
+		DC6E8BA320ED765B00654B20 /* TipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6E8BA220ED765B00654B20 /* TipsterUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC9E148520EC16DF002ED8BA /* PBXContainerItemProxy */ = {
+		DC6E8B9420ED765B00654B20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC9E146820EC16DE002ED8BA /* Project object */;
+			containerPortal = DC6E8B7720ED765900654B20 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9E146F20EC16DE002ED8BA;
-			remoteInfo = IOSQuiz;
+			remoteGlobalIDString = DC6E8B7E20ED765900654B20;
+			remoteInfo = Tipster;
 		};
-		DC9E149020EC16DF002ED8BA /* PBXContainerItemProxy */ = {
+		DC6E8B9F20ED765B00654B20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC9E146820EC16DE002ED8BA /* Project object */;
+			containerPortal = DC6E8B7720ED765900654B20 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9E146F20EC16DE002ED8BA;
-			remoteInfo = IOSQuiz;
+			remoteGlobalIDString = DC6E8B7E20ED765900654B20;
+			remoteInfo = Tipster;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC9E147020EC16DE002ED8BA /* IOSQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E147320EC16DE002ED8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9E147520EC16DE002ED8BA /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		DC9E147820EC16DE002ED8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC9E147A20EC16DF002ED8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC9E147D20EC16DF002ED8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC9E147F20EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizTests.swift; sourceTree = "<group>"; };
-		DC9E148A20EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizUITests.swift; sourceTree = "<group>"; };
-		DC9E149520EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E14A120EC1855002ED8BA /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
+		DC6E8B7F20ED765900654B20 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E8B8220ED765900654B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC6E8B8420ED765900654B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC6E8B8720ED765900654B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6E8B8920ED765B00654B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC6E8B8C20ED765B00654B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC6E8B8E20ED765B00654B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E8B9320ED765B00654B20 /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E8B9720ED765B00654B20 /* TipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterTests.swift; sourceTree = "<group>"; };
+		DC6E8B9920ED765B00654B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6E8B9E20ED765B00654B20 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E8BA220ED765B00654B20 /* TipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterUITests.swift; sourceTree = "<group>"; };
+		DC6E8BA420ED765B00654B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC9E146D20EC16DE002ED8BA /* Frameworks */ = {
+		DC6E8B7C20ED765900654B20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148120EC16DF002ED8BA /* Frameworks */ = {
+		DC6E8B9020ED765B00654B20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148C20EC16DF002ED8BA /* Frameworks */ = {
+		DC6E8B9B20ED765B00654B20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC9E146720EC16DE002ED8BA = {
+		DC6E8B7620ED765900654B20 = {
 			isa = PBXGroup;
 			children = (
-				DC9E147220EC16DE002ED8BA /* IOSQuiz */,
-				DC9E148720EC16DF002ED8BA /* IOSQuizTests */,
-				DC9E149220EC16DF002ED8BA /* IOSQuizUITests */,
-				DC9E147120EC16DE002ED8BA /* Products */,
+				DC6E8B8120ED765900654B20 /* Tipster */,
+				DC6E8B9620ED765B00654B20 /* TipsterTests */,
+				DC6E8BA120ED765B00654B20 /* TipsterUITests */,
+				DC6E8B8020ED765900654B20 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC9E147120EC16DE002ED8BA /* Products */ = {
+		DC6E8B8020ED765900654B20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E147020EC16DE002ED8BA /* IOSQuiz.app */,
-				DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */,
-				DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */,
+				DC6E8B7F20ED765900654B20 /* Tipster.app */,
+				DC6E8B9320ED765B00654B20 /* TipsterTests.xctest */,
+				DC6E8B9E20ED765B00654B20 /* TipsterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC9E147220EC16DE002ED8BA /* IOSQuiz */ = {
+		DC6E8B8120ED765900654B20 /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E147320EC16DE002ED8BA /* AppDelegate.swift */,
-				DC9E147520EC16DE002ED8BA /* MainController.swift */,
-				DC9E147720EC16DE002ED8BA /* Main.storyboard */,
-				DC9E147A20EC16DF002ED8BA /* Assets.xcassets */,
-				DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */,
-				DC9E147F20EC16DF002ED8BA /* Info.plist */,
-				DC9E14A120EC1855002ED8BA /* OtherController.swift */,
+				DC6E8B8220ED765900654B20 /* AppDelegate.swift */,
+				DC6E8B8420ED765900654B20 /* ViewController.swift */,
+				DC6E8B8620ED765900654B20 /* Main.storyboard */,
+				DC6E8B8920ED765B00654B20 /* Assets.xcassets */,
+				DC6E8B8B20ED765B00654B20 /* LaunchScreen.storyboard */,
+				DC6E8B8E20ED765B00654B20 /* Info.plist */,
 			);
-			path = IOSQuiz;
+			path = Tipster;
 			sourceTree = "<group>";
 		};
-		DC9E148720EC16DF002ED8BA /* IOSQuizTests */ = {
+		DC6E8B9620ED765B00654B20 /* TipsterTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */,
-				DC9E148A20EC16DF002ED8BA /* Info.plist */,
+				DC6E8B9720ED765B00654B20 /* TipsterTests.swift */,
+				DC6E8B9920ED765B00654B20 /* Info.plist */,
 			);
-			path = IOSQuizTests;
+			path = TipsterTests;
 			sourceTree = "<group>";
 		};
-		DC9E149220EC16DF002ED8BA /* IOSQuizUITests */ = {
+		DC6E8BA120ED765B00654B20 /* TipsterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */,
-				DC9E149520EC16DF002ED8BA /* Info.plist */,
+				DC6E8BA220ED765B00654B20 /* TipsterUITests.swift */,
+				DC6E8BA420ED765B00654B20 /* Info.plist */,
 			);
-			path = IOSQuizUITests;
+			path = TipsterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC9E146F20EC16DE002ED8BA /* IOSQuiz */ = {
+		DC6E8B7E20ED765900654B20 /* Tipster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149820EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuiz" */;
+			buildConfigurationList = DC6E8BA720ED765B00654B20 /* Build configuration list for PBXNativeTarget "Tipster" */;
 			buildPhases = (
-				DC9E146C20EC16DE002ED8BA /* Sources */,
-				DC9E146D20EC16DE002ED8BA /* Frameworks */,
-				DC9E146E20EC16DE002ED8BA /* Resources */,
+				DC6E8B7B20ED765900654B20 /* Sources */,
+				DC6E8B7C20ED765900654B20 /* Frameworks */,
+				DC6E8B7D20ED765900654B20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IOSQuiz;
-			productName = IOSQuiz;
-			productReference = DC9E147020EC16DE002ED8BA /* IOSQuiz.app */;
+			name = Tipster;
+			productName = Tipster;
+			productReference = DC6E8B7F20ED765900654B20 /* Tipster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC9E148320EC16DF002ED8BA /* IOSQuizTests */ = {
+		DC6E8B9220ED765B00654B20 /* TipsterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149B20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizTests" */;
+			buildConfigurationList = DC6E8BAA20ED765B00654B20 /* Build configuration list for PBXNativeTarget "TipsterTests" */;
 			buildPhases = (
-				DC9E148020EC16DF002ED8BA /* Sources */,
-				DC9E148120EC16DF002ED8BA /* Frameworks */,
-				DC9E148220EC16DF002ED8BA /* Resources */,
+				DC6E8B8F20ED765B00654B20 /* Sources */,
+				DC6E8B9020ED765B00654B20 /* Frameworks */,
+				DC6E8B9120ED765B00654B20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9E148620EC16DF002ED8BA /* PBXTargetDependency */,
+				DC6E8B9520ED765B00654B20 /* PBXTargetDependency */,
 			);
-			name = IOSQuizTests;
-			productName = IOSQuizTests;
-			productReference = DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */;
+			name = TipsterTests;
+			productName = TipsterTests;
+			productReference = DC6E8B9320ED765B00654B20 /* TipsterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC9E148E20EC16DF002ED8BA /* IOSQuizUITests */ = {
+		DC6E8B9D20ED765B00654B20 /* TipsterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149E20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizUITests" */;
+			buildConfigurationList = DC6E8BAD20ED765B00654B20 /* Build configuration list for PBXNativeTarget "TipsterUITests" */;
 			buildPhases = (
-				DC9E148B20EC16DF002ED8BA /* Sources */,
-				DC9E148C20EC16DF002ED8BA /* Frameworks */,
-				DC9E148D20EC16DF002ED8BA /* Resources */,
+				DC6E8B9A20ED765B00654B20 /* Sources */,
+				DC6E8B9B20ED765B00654B20 /* Frameworks */,
+				DC6E8B9C20ED765B00654B20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9E149120EC16DF002ED8BA /* PBXTargetDependency */,
+				DC6E8BA020ED765B00654B20 /* PBXTargetDependency */,
 			);
-			name = IOSQuizUITests;
-			productName = IOSQuizUITests;
-			productReference = DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */;
+			name = TipsterUITests;
+			productName = TipsterUITests;
+			productReference = DC6E8B9E20ED765B00654B20 /* TipsterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC9E146820EC16DE002ED8BA /* Project object */ = {
+		DC6E8B7720ED765900654B20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Sruthi Suryadevara";
 				TargetAttributes = {
-					DC9E146F20EC16DE002ED8BA = {
+					DC6E8B7E20ED765900654B20 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					DC9E148320EC16DF002ED8BA = {
+					DC6E8B9220ED765B00654B20 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DC9E146F20EC16DE002ED8BA;
+						TestTargetID = DC6E8B7E20ED765900654B20;
 					};
-					DC9E148E20EC16DF002ED8BA = {
+					DC6E8B9D20ED765B00654B20 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DC9E146F20EC16DE002ED8BA;
+						TestTargetID = DC6E8B7E20ED765900654B20;
 					};
 				};
 			};
-			buildConfigurationList = DC9E146B20EC16DE002ED8BA /* Build configuration list for PBXProject "IOSQuiz" */;
+			buildConfigurationList = DC6E8B7A20ED765900654B20 /* Build configuration list for PBXProject "Tipster" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DC9E146720EC16DE002ED8BA;
-			productRefGroup = DC9E147120EC16DE002ED8BA /* Products */;
+			mainGroup = DC6E8B7620ED765900654B20;
+			productRefGroup = DC6E8B8020ED765900654B20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9E146F20EC16DE002ED8BA /* IOSQuiz */,
-				DC9E148320EC16DF002ED8BA /* IOSQuizTests */,
-				DC9E148E20EC16DF002ED8BA /* IOSQuizUITests */,
+				DC6E8B7E20ED765900654B20 /* Tipster */,
+				DC6E8B9220ED765B00654B20 /* TipsterTests */,
+				DC6E8B9D20ED765B00654B20 /* TipsterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC9E146E20EC16DE002ED8BA /* Resources */ = {
+		DC6E8B7D20ED765900654B20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E147E20EC16DF002ED8BA /* LaunchScreen.storyboard in Resources */,
-				DC9E147B20EC16DF002ED8BA /* Assets.xcassets in Resources */,
-				DC9E147920EC16DE002ED8BA /* Main.storyboard in Resources */,
+				DC6E8B8D20ED765B00654B20 /* LaunchScreen.storyboard in Resources */,
+				DC6E8B8A20ED765B00654B20 /* Assets.xcassets in Resources */,
+				DC6E8B8820ED765900654B20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148220EC16DF002ED8BA /* Resources */ = {
+		DC6E8B9120ED765B00654B20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148D20EC16DF002ED8BA /* Resources */ = {
+		DC6E8B9C20ED765B00654B20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC9E146C20EC16DE002ED8BA /* Sources */ = {
+		DC6E8B7B20ED765900654B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E147620EC16DE002ED8BA /* MainController.swift in Sources */,
-				DC9E147420EC16DE002ED8BA /* AppDelegate.swift in Sources */,
-				DC9E14A220EC1855002ED8BA /* OtherController.swift in Sources */,
+				DC6E8B8520ED765900654B20 /* ViewController.swift in Sources */,
+				DC6E8B8320ED765900654B20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148020EC16DF002ED8BA /* Sources */ = {
+		DC6E8B8F20ED765B00654B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E148920EC16DF002ED8BA /* IOSQuizTests.swift in Sources */,
+				DC6E8B9820ED765B00654B20 /* TipsterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148B20EC16DF002ED8BA /* Sources */ = {
+		DC6E8B9A20ED765B00654B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E149420EC16DF002ED8BA /* IOSQuizUITests.swift in Sources */,
+				DC6E8BA320ED765B00654B20 /* TipsterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC9E148620EC16DF002ED8BA /* PBXTargetDependency */ = {
+		DC6E8B9520ED765B00654B20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9E146F20EC16DE002ED8BA /* IOSQuiz */;
-			targetProxy = DC9E148520EC16DF002ED8BA /* PBXContainerItemProxy */;
+			target = DC6E8B7E20ED765900654B20 /* Tipster */;
+			targetProxy = DC6E8B9420ED765B00654B20 /* PBXContainerItemProxy */;
 		};
-		DC9E149120EC16DF002ED8BA /* PBXTargetDependency */ = {
+		DC6E8BA020ED765B00654B20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9E146F20EC16DE002ED8BA /* IOSQuiz */;
-			targetProxy = DC9E149020EC16DF002ED8BA /* PBXContainerItemProxy */;
+			target = DC6E8B7E20ED765900654B20 /* Tipster */;
+			targetProxy = DC6E8B9F20ED765B00654B20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC9E147720EC16DE002ED8BA /* Main.storyboard */ = {
+		DC6E8B8620ED765900654B20 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9E147820EC16DE002ED8BA /* Base */,
+				DC6E8B8720ED765900654B20 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */ = {
+		DC6E8B8B20ED765B00654B20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9E147D20EC16DF002ED8BA /* Base */,
+				DC6E8B8C20ED765B00654B20 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC9E149620EC16DF002ED8BA /* Debug */ = {
+		DC6E8BA520ED765B00654B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		DC9E149720EC16DF002ED8BA /* Release */ = {
+		DC6E8BA620ED765B00654B20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,158 +426,158 @@
 			};
 			name = Release;
 		};
-		DC9E149920EC16DF002ED8BA /* Debug */ = {
+		DC6E8BA820ED765B00654B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuiz/Info.plist;
+				INFOPLIST_FILE = Tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC9E149A20EC16DF002ED8BA /* Release */ = {
+		DC6E8BA920ED765B00654B20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuiz/Info.plist;
+				INFOPLIST_FILE = Tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DC9E149C20EC16DF002ED8BA /* Debug */ = {
+		DC6E8BAB20ED765B00654B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizTests/Info.plist;
+				INFOPLIST_FILE = TipsterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.TipsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSQuiz.app/IOSQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/Tipster";
 			};
 			name = Debug;
 		};
-		DC9E149D20EC16DF002ED8BA /* Release */ = {
+		DC6E8BAC20ED765B00654B20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizTests/Info.plist;
+				INFOPLIST_FILE = TipsterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.TipsterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSQuiz.app/IOSQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/Tipster";
 			};
 			name = Release;
 		};
-		DC9E149F20EC16DF002ED8BA /* Debug */ = {
+		DC6E8BAE20ED765B00654B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizUITests/Info.plist;
+				INFOPLIST_FILE = TipsterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.TipsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IOSQuiz;
+				TEST_TARGET_NAME = Tipster;
 			};
 			name = Debug;
 		};
-		DC9E14A020EC16DF002ED8BA /* Release */ = {
+		DC6E8BAF20ED765B00654B20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizUITests/Info.plist;
+				INFOPLIST_FILE = TipsterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.TipsterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IOSQuiz;
+				TEST_TARGET_NAME = Tipster;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC9E146B20EC16DE002ED8BA /* Build configuration list for PBXProject "IOSQuiz" */ = {
+		DC6E8B7A20ED765900654B20 /* Build configuration list for PBXProject "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149620EC16DF002ED8BA /* Debug */,
-				DC9E149720EC16DF002ED8BA /* Release */,
+				DC6E8BA520ED765B00654B20 /* Debug */,
+				DC6E8BA620ED765B00654B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149820EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuiz" */ = {
+		DC6E8BA720ED765B00654B20 /* Build configuration list for PBXNativeTarget "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149920EC16DF002ED8BA /* Debug */,
-				DC9E149A20EC16DF002ED8BA /* Release */,
+				DC6E8BA820ED765B00654B20 /* Debug */,
+				DC6E8BA920ED765B00654B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149B20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizTests" */ = {
+		DC6E8BAA20ED765B00654B20 /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149C20EC16DF002ED8BA /* Debug */,
-				DC9E149D20EC16DF002ED8BA /* Release */,
+				DC6E8BAB20ED765B00654B20 /* Debug */,
+				DC6E8BAC20ED765B00654B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149E20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizUITests" */ = {
+		DC6E8BAD20ED765B00654B20 /* Build configuration list for PBXNativeTarget "TipsterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149F20EC16DF002ED8BA /* Debug */,
-				DC9E14A020EC16DF002ED8BA /* Release */,
+				DC6E8BAE20ED765B00654B20 /* Debug */,
+				DC6E8BAF20ED765B00654B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC9E146820EC16DE002ED8BA /* Project object */;
+	rootObject = DC6E8B7720ED765900654B20 /* Project object */;
 }

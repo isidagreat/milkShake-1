@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC9E147420EC16DE002ED8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E147320EC16DE002ED8BA /* AppDelegate.swift */; };
-		DC9E147620EC16DE002ED8BA /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E147520EC16DE002ED8BA /* MainController.swift */; };
-		DC9E147920EC16DE002ED8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147720EC16DE002ED8BA /* Main.storyboard */; };
-		DC9E147B20EC16DF002ED8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147A20EC16DF002ED8BA /* Assets.xcassets */; };
-		DC9E147E20EC16DF002ED8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */; };
-		DC9E148920EC16DF002ED8BA /* IOSQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */; };
-		DC9E149420EC16DF002ED8BA /* IOSQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */; };
-		DC9E14A220EC1855002ED8BA /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E14A120EC1855002ED8BA /* OtherController.swift */; };
+		DCFEA60720EED8CD00C1D660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEA60620EED8CD00C1D660 /* AppDelegate.swift */; };
+		DCFEA60D20EED8CD00C1D660 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEA60C20EED8CD00C1D660 /* GameScene.swift */; };
+		DCFEA60F20EED8CD00C1D660 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEA60E20EED8CD00C1D660 /* GameViewController.swift */; };
+		DCFEA61220EED8CD00C1D660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFEA61020EED8CD00C1D660 /* Main.storyboard */; };
+		DCFEA61420EED8CE00C1D660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFEA61320EED8CE00C1D660 /* Assets.xcassets */; };
+		DCFEA61720EED8CE00C1D660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFEA61520EED8CE00C1D660 /* LaunchScreen.storyboard */; };
+		DCFEA62220EED8CE00C1D660 /* milkShakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEA62120EED8CE00C1D660 /* milkShakeTests.swift */; };
+		DCFEA62D20EED8CF00C1D660 /* milkShakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEA62C20EED8CF00C1D660 /* milkShakeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC9E148520EC16DF002ED8BA /* PBXContainerItemProxy */ = {
+		DCFEA61E20EED8CE00C1D660 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC9E146820EC16DE002ED8BA /* Project object */;
+			containerPortal = DCFEA5FB20EED8CD00C1D660 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9E146F20EC16DE002ED8BA;
-			remoteInfo = IOSQuiz;
+			remoteGlobalIDString = DCFEA60220EED8CD00C1D660;
+			remoteInfo = milkShake;
 		};
-		DC9E149020EC16DF002ED8BA /* PBXContainerItemProxy */ = {
+		DCFEA62920EED8CF00C1D660 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC9E146820EC16DE002ED8BA /* Project object */;
+			containerPortal = DCFEA5FB20EED8CD00C1D660 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC9E146F20EC16DE002ED8BA;
-			remoteInfo = IOSQuiz;
+			remoteGlobalIDString = DCFEA60220EED8CD00C1D660;
+			remoteInfo = milkShake;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC9E147020EC16DE002ED8BA /* IOSQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E147320EC16DE002ED8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9E147520EC16DE002ED8BA /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		DC9E147820EC16DE002ED8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC9E147A20EC16DF002ED8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC9E147D20EC16DF002ED8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC9E147F20EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizTests.swift; sourceTree = "<group>"; };
-		DC9E148A20EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSQuizUITests.swift; sourceTree = "<group>"; };
-		DC9E149520EC16DF002ED8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9E14A120EC1855002ED8BA /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
+		DCFEA60320EED8CD00C1D660 /* milkShake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = milkShake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFEA60620EED8CD00C1D660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCFEA60C20EED8CD00C1D660 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DCFEA60E20EED8CD00C1D660 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DCFEA61120EED8CD00C1D660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFEA61320EED8CE00C1D660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFEA61620EED8CE00C1D660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFEA61820EED8CE00C1D660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFEA61D20EED8CE00C1D660 /* milkShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milkShakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFEA62120EED8CE00C1D660 /* milkShakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milkShakeTests.swift; sourceTree = "<group>"; };
+		DCFEA62320EED8CE00C1D660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFEA62820EED8CF00C1D660 /* milkShakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milkShakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFEA62C20EED8CF00C1D660 /* milkShakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milkShakeUITests.swift; sourceTree = "<group>"; };
+		DCFEA62E20EED8CF00C1D660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC9E146D20EC16DE002ED8BA /* Frameworks */ = {
+		DCFEA60020EED8CD00C1D660 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148120EC16DF002ED8BA /* Frameworks */ = {
+		DCFEA61A20EED8CE00C1D660 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148C20EC16DF002ED8BA /* Frameworks */ = {
+		DCFEA62520EED8CF00C1D660 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +76,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC9E146720EC16DE002ED8BA = {
+		DCFEA5FA20EED8CD00C1D660 = {
 			isa = PBXGroup;
 			children = (
-				DC9E147220EC16DE002ED8BA /* IOSQuiz */,
-				DC9E148720EC16DF002ED8BA /* IOSQuizTests */,
-				DC9E149220EC16DF002ED8BA /* IOSQuizUITests */,
-				DC9E147120EC16DE002ED8BA /* Products */,
+				DCFEA60520EED8CD00C1D660 /* milkShake */,
+				DCFEA62020EED8CE00C1D660 /* milkShakeTests */,
+				DCFEA62B20EED8CF00C1D660 /* milkShakeUITests */,
+				DCFEA60420EED8CD00C1D660 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC9E147120EC16DE002ED8BA /* Products */ = {
+		DCFEA60420EED8CD00C1D660 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E147020EC16DE002ED8BA /* IOSQuiz.app */,
-				DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */,
-				DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */,
+				DCFEA60320EED8CD00C1D660 /* milkShake.app */,
+				DCFEA61D20EED8CE00C1D660 /* milkShakeTests.xctest */,
+				DCFEA62820EED8CF00C1D660 /* milkShakeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC9E147220EC16DE002ED8BA /* IOSQuiz */ = {
+		DCFEA60520EED8CD00C1D660 /* milkShake */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E147320EC16DE002ED8BA /* AppDelegate.swift */,
-				DC9E147520EC16DE002ED8BA /* MainController.swift */,
-				DC9E147720EC16DE002ED8BA /* Main.storyboard */,
-				DC9E147A20EC16DF002ED8BA /* Assets.xcassets */,
-				DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */,
-				DC9E147F20EC16DF002ED8BA /* Info.plist */,
-				DC9E14A120EC1855002ED8BA /* OtherController.swift */,
+				DCFEA60620EED8CD00C1D660 /* AppDelegate.swift */,
+				DCFEA60C20EED8CD00C1D660 /* GameScene.swift */,
+				DCFEA60E20EED8CD00C1D660 /* GameViewController.swift */,
+				DCFEA61020EED8CD00C1D660 /* Main.storyboard */,
+				DCFEA61320EED8CE00C1D660 /* Assets.xcassets */,
+				DCFEA61520EED8CE00C1D660 /* LaunchScreen.storyboard */,
+				DCFEA61820EED8CE00C1D660 /* Info.plist */,
 			);
-			path = IOSQuiz;
+			path = milkShake;
 			sourceTree = "<group>";
 		};
-		DC9E148720EC16DF002ED8BA /* IOSQuizTests */ = {
+		DCFEA62020EED8CE00C1D660 /* milkShakeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E148820EC16DF002ED8BA /* IOSQuizTests.swift */,
-				DC9E148A20EC16DF002ED8BA /* Info.plist */,
+				DCFEA62120EED8CE00C1D660 /* milkShakeTests.swift */,
+				DCFEA62320EED8CE00C1D660 /* Info.plist */,
 			);
-			path = IOSQuizTests;
+			path = milkShakeTests;
 			sourceTree = "<group>";
 		};
-		DC9E149220EC16DF002ED8BA /* IOSQuizUITests */ = {
+		DCFEA62B20EED8CF00C1D660 /* milkShakeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DC9E149320EC16DF002ED8BA /* IOSQuizUITests.swift */,
-				DC9E149520EC16DF002ED8BA /* Info.plist */,
+				DCFEA62C20EED8CF00C1D660 /* milkShakeUITests.swift */,
+				DCFEA62E20EED8CF00C1D660 /* Info.plist */,
 			);
-			path = IOSQuizUITests;
+			path = milkShakeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC9E146F20EC16DE002ED8BA /* IOSQuiz */ = {
+		DCFEA60220EED8CD00C1D660 /* milkShake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149820EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuiz" */;
+			buildConfigurationList = DCFEA63120EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShake" */;
 			buildPhases = (
-				DC9E146C20EC16DE002ED8BA /* Sources */,
-				DC9E146D20EC16DE002ED8BA /* Frameworks */,
-				DC9E146E20EC16DE002ED8BA /* Resources */,
+				DCFEA5FF20EED8CD00C1D660 /* Sources */,
+				DCFEA60020EED8CD00C1D660 /* Frameworks */,
+				DCFEA60120EED8CD00C1D660 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IOSQuiz;
-			productName = IOSQuiz;
-			productReference = DC9E147020EC16DE002ED8BA /* IOSQuiz.app */;
+			name = milkShake;
+			productName = milkShake;
+			productReference = DCFEA60320EED8CD00C1D660 /* milkShake.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC9E148320EC16DF002ED8BA /* IOSQuizTests */ = {
+		DCFEA61C20EED8CE00C1D660 /* milkShakeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149B20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizTests" */;
+			buildConfigurationList = DCFEA63420EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShakeTests" */;
 			buildPhases = (
-				DC9E148020EC16DF002ED8BA /* Sources */,
-				DC9E148120EC16DF002ED8BA /* Frameworks */,
-				DC9E148220EC16DF002ED8BA /* Resources */,
+				DCFEA61920EED8CE00C1D660 /* Sources */,
+				DCFEA61A20EED8CE00C1D660 /* Frameworks */,
+				DCFEA61B20EED8CE00C1D660 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9E148620EC16DF002ED8BA /* PBXTargetDependency */,
+				DCFEA61F20EED8CE00C1D660 /* PBXTargetDependency */,
 			);
-			name = IOSQuizTests;
-			productName = IOSQuizTests;
-			productReference = DC9E148420EC16DF002ED8BA /* IOSQuizTests.xctest */;
+			name = milkShakeTests;
+			productName = milkShakeTests;
+			productReference = DCFEA61D20EED8CE00C1D660 /* milkShakeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC9E148E20EC16DF002ED8BA /* IOSQuizUITests */ = {
+		DCFEA62720EED8CF00C1D660 /* milkShakeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9E149E20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizUITests" */;
+			buildConfigurationList = DCFEA63720EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShakeUITests" */;
 			buildPhases = (
-				DC9E148B20EC16DF002ED8BA /* Sources */,
-				DC9E148C20EC16DF002ED8BA /* Frameworks */,
-				DC9E148D20EC16DF002ED8BA /* Resources */,
+				DCFEA62420EED8CF00C1D660 /* Sources */,
+				DCFEA62520EED8CF00C1D660 /* Frameworks */,
+				DCFEA62620EED8CF00C1D660 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC9E149120EC16DF002ED8BA /* PBXTargetDependency */,
+				DCFEA62A20EED8CF00C1D660 /* PBXTargetDependency */,
 			);
-			name = IOSQuizUITests;
-			productName = IOSQuizUITests;
-			productReference = DC9E148F20EC16DF002ED8BA /* IOSQuizUITests.xctest */;
+			name = milkShakeUITests;
+			productName = milkShakeUITests;
+			productReference = DCFEA62820EED8CF00C1D660 /* milkShakeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC9E146820EC16DE002ED8BA /* Project object */ = {
+		DCFEA5FB20EED8CD00C1D660 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Sruthi Suryadevara";
 				TargetAttributes = {
-					DC9E146F20EC16DE002ED8BA = {
+					DCFEA60220EED8CD00C1D660 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					DC9E148320EC16DF002ED8BA = {
+					DCFEA61C20EED8CE00C1D660 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DC9E146F20EC16DE002ED8BA;
+						TestTargetID = DCFEA60220EED8CD00C1D660;
 					};
-					DC9E148E20EC16DF002ED8BA = {
+					DCFEA62720EED8CF00C1D660 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DC9E146F20EC16DE002ED8BA;
+						TestTargetID = DCFEA60220EED8CD00C1D660;
 					};
 				};
 			};
-			buildConfigurationList = DC9E146B20EC16DE002ED8BA /* Build configuration list for PBXProject "IOSQuiz" */;
+			buildConfigurationList = DCFEA5FE20EED8CD00C1D660 /* Build configuration list for PBXProject "milkShake" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DC9E146720EC16DE002ED8BA;
-			productRefGroup = DC9E147120EC16DE002ED8BA /* Products */;
+			mainGroup = DCFEA5FA20EED8CD00C1D660;
+			productRefGroup = DCFEA60420EED8CD00C1D660 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9E146F20EC16DE002ED8BA /* IOSQuiz */,
-				DC9E148320EC16DF002ED8BA /* IOSQuizTests */,
-				DC9E148E20EC16DF002ED8BA /* IOSQuizUITests */,
+				DCFEA60220EED8CD00C1D660 /* milkShake */,
+				DCFEA61C20EED8CE00C1D660 /* milkShakeTests */,
+				DCFEA62720EED8CF00C1D660 /* milkShakeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC9E146E20EC16DE002ED8BA /* Resources */ = {
+		DCFEA60120EED8CD00C1D660 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E147E20EC16DF002ED8BA /* LaunchScreen.storyboard in Resources */,
-				DC9E147B20EC16DF002ED8BA /* Assets.xcassets in Resources */,
-				DC9E147920EC16DE002ED8BA /* Main.storyboard in Resources */,
+				DCFEA61220EED8CD00C1D660 /* Main.storyboard in Resources */,
+				DCFEA61420EED8CE00C1D660 /* Assets.xcassets in Resources */,
+				DCFEA61720EED8CE00C1D660 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148220EC16DF002ED8BA /* Resources */ = {
+		DCFEA61B20EED8CE00C1D660 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148D20EC16DF002ED8BA /* Resources */ = {
+		DCFEA62620EED8CF00C1D660 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC9E146C20EC16DE002ED8BA /* Sources */ = {
+		DCFEA5FF20EED8CD00C1D660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E147620EC16DE002ED8BA /* MainController.swift in Sources */,
-				DC9E147420EC16DE002ED8BA /* AppDelegate.swift in Sources */,
-				DC9E14A220EC1855002ED8BA /* OtherController.swift in Sources */,
+				DCFEA60D20EED8CD00C1D660 /* GameScene.swift in Sources */,
+				DCFEA60F20EED8CD00C1D660 /* GameViewController.swift in Sources */,
+				DCFEA60720EED8CD00C1D660 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148020EC16DF002ED8BA /* Sources */ = {
+		DCFEA61920EED8CE00C1D660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E148920EC16DF002ED8BA /* IOSQuizTests.swift in Sources */,
+				DCFEA62220EED8CE00C1D660 /* milkShakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC9E148B20EC16DF002ED8BA /* Sources */ = {
+		DCFEA62420EED8CF00C1D660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9E149420EC16DF002ED8BA /* IOSQuizUITests.swift in Sources */,
+				DCFEA62D20EED8CF00C1D660 /* milkShakeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC9E148620EC16DF002ED8BA /* PBXTargetDependency */ = {
+		DCFEA61F20EED8CE00C1D660 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9E146F20EC16DE002ED8BA /* IOSQuiz */;
-			targetProxy = DC9E148520EC16DF002ED8BA /* PBXContainerItemProxy */;
+			target = DCFEA60220EED8CD00C1D660 /* milkShake */;
+			targetProxy = DCFEA61E20EED8CE00C1D660 /* PBXContainerItemProxy */;
 		};
-		DC9E149120EC16DF002ED8BA /* PBXTargetDependency */ = {
+		DCFEA62A20EED8CF00C1D660 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC9E146F20EC16DE002ED8BA /* IOSQuiz */;
-			targetProxy = DC9E149020EC16DF002ED8BA /* PBXContainerItemProxy */;
+			target = DCFEA60220EED8CD00C1D660 /* milkShake */;
+			targetProxy = DCFEA62920EED8CF00C1D660 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC9E147720EC16DE002ED8BA /* Main.storyboard */ = {
+		DCFEA61020EED8CD00C1D660 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9E147820EC16DE002ED8BA /* Base */,
+				DCFEA61120EED8CD00C1D660 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC9E147C20EC16DF002ED8BA /* LaunchScreen.storyboard */ = {
+		DCFEA61520EED8CE00C1D660 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9E147D20EC16DF002ED8BA /* Base */,
+				DCFEA61620EED8CE00C1D660 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC9E149620EC16DF002ED8BA /* Debug */ = {
+		DCFEA62F20EED8CF00C1D660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		DC9E149720EC16DF002ED8BA /* Release */ = {
+		DCFEA63020EED8CF00C1D660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,158 +430,158 @@
 			};
 			name = Release;
 		};
-		DC9E149920EC16DF002ED8BA /* Debug */ = {
+		DCFEA63220EED8CF00C1D660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuiz/Info.plist;
+				INFOPLIST_FILE = milkShake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC9E149A20EC16DF002ED8BA /* Release */ = {
+		DCFEA63320EED8CF00C1D660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuiz/Info.plist;
+				INFOPLIST_FILE = milkShake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DC9E149C20EC16DF002ED8BA /* Debug */ = {
+		DCFEA63520EED8CF00C1D660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizTests/Info.plist;
+				INFOPLIST_FILE = milkShakeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSQuiz.app/IOSQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milkShake.app/milkShake";
 			};
 			name = Debug;
 		};
-		DC9E149D20EC16DF002ED8BA /* Release */ = {
+		DCFEA63620EED8CF00C1D660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizTests/Info.plist;
+				INFOPLIST_FILE = milkShakeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSQuiz.app/IOSQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milkShake.app/milkShake";
 			};
 			name = Release;
 		};
-		DC9E149F20EC16DF002ED8BA /* Debug */ = {
+		DCFEA63820EED8CF00C1D660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizUITests/Info.plist;
+				INFOPLIST_FILE = milkShakeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IOSQuiz;
+				TEST_TARGET_NAME = milkShake;
 			};
 			name = Debug;
 		};
-		DC9E14A020EC16DF002ED8BA /* Release */ = {
+		DCFEA63920EED8CF00C1D660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSQuizUITests/Info.plist;
+				INFOPLIST_FILE = milkShakeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.IOSQuizUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.milkShakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IOSQuiz;
+				TEST_TARGET_NAME = milkShake;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC9E146B20EC16DE002ED8BA /* Build configuration list for PBXProject "IOSQuiz" */ = {
+		DCFEA5FE20EED8CD00C1D660 /* Build configuration list for PBXProject "milkShake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149620EC16DF002ED8BA /* Debug */,
-				DC9E149720EC16DF002ED8BA /* Release */,
+				DCFEA62F20EED8CF00C1D660 /* Debug */,
+				DCFEA63020EED8CF00C1D660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149820EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuiz" */ = {
+		DCFEA63120EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149920EC16DF002ED8BA /* Debug */,
-				DC9E149A20EC16DF002ED8BA /* Release */,
+				DCFEA63220EED8CF00C1D660 /* Debug */,
+				DCFEA63320EED8CF00C1D660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149B20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizTests" */ = {
+		DCFEA63420EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShakeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149C20EC16DF002ED8BA /* Debug */,
-				DC9E149D20EC16DF002ED8BA /* Release */,
+				DCFEA63520EED8CF00C1D660 /* Debug */,
+				DCFEA63620EED8CF00C1D660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9E149E20EC16DF002ED8BA /* Build configuration list for PBXNativeTarget "IOSQuizUITests" */ = {
+		DCFEA63720EED8CF00C1D660 /* Build configuration list for PBXNativeTarget "milkShakeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9E149F20EC16DF002ED8BA /* Debug */,
-				DC9E14A020EC16DF002ED8BA /* Release */,
+				DCFEA63820EED8CF00C1D660 /* Debug */,
+				DCFEA63920EED8CF00C1D660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC9E146820EC16DE002ED8BA /* Project object */;
+	rootObject = DCFEA5FB20EED8CD00C1D660 /* Project object */;
 }
